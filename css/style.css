@@ -290,6 +290,94 @@ header .intro-text {
 	color: #555;
 	margin-top: -26px;
 }
+/* Direction Section */
+#direction {
+	padding: 0 0 60px 0;
+}
+#direction .section-title {
+	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#direction .section-title h2 {
+	color: #fff;
+}
+#direction img {
+	width: 300px;
+	box-shadow: 15px 0 #a7c44c;
+}
+#direction h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#direction .menu-section hr {
+	margin: 0 auto;
+}
+#direction .menu-section {
+	margin: 0 20px 80px;
+}
+#direction .menu-section-title {
+	font-size: 26px;
+	display: block;
+	font-weight: 500;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#direction .menu-item {
+	margin: 35px 0;
+	font-size: 18px;
+}
+.section-title hr {
+	margin: 0 auto;
+}
+#direction .menu-item-description { 
+	font-style: italic;
+	font-size: 15px;
+}
+#directions .directions-img {
+	width: 80%;
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+.directions {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/directions.jpg) no-repeat center center;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.directions .overlay {
+	background: rgba(0,0,0,0.4);
+}
+.directions h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 10em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.directions span {
+	color: ;
+	font-weight: 600;
+}
+.directions p {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.directions-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 0 0 120px 0;
