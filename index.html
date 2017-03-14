@@ -26,6 +26,12 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<style>
+#map {
+  height: 400px;
+  width: 100%;
+}
+</style>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -227,19 +233,25 @@
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <h2 class="menu-section-title">map</h2>
-        <div class="directions">
-          <div class="overlay">
-            <div class="container">
-              <div class="row">
-                <div class="directions-text">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>      
+      <h3>Victoria View</h3>
+      <hr>
+      <div id="map"></div>
+      <script>
+      function initMap() {
+        var lake_Victoria_Serena_Resort = {lat: 0.2075, lng: 32.5830};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: lake_Victoria_Serena_Resort,
+        });
+        var marker = new google.maps.Marker({
+          position: lake_Victoria_Serena_Resort,
+          map: map
+        });
+      }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1oH5KK53a9kMxdDZZ4_43xtw5BOctoC4&callback=initMap">
+      </script>   
     </div>
   </div>
 </div>
@@ -258,10 +270,7 @@
         <ul class="cat">
           <li>
             <ol class="type">
-              <li><a href="#" data-filter="*" class="active">All</a></li>
-              <li><a href="#" data-filter=".breakfast">Hotel</a></li>
-              <li><a href="#" data-filter=".lunch">Food</a></li>
-              <li><a href="#" data-filter=".dinner">Tour</a></li>
+              <li><a href="#" data-filter="*" class="active">Hotel</a></li>
             </ol>
           </li>
         </ul>
@@ -306,15 +315,6 @@
               <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/park.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Elephants closing</h4>
-              </div>
-              <img src="img/portfolio/park.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
         <div class="col-sm-6 col-md-4 col-lg-4 lunch">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
@@ -342,15 +342,6 @@
               <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/tour-4.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Gorillas</h4>
-              </div>
-              <img src="img/portfolio/tour-4.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
         <div class="col-sm-6 col-md-4 col-lg-4 lunch">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
@@ -367,24 +358,6 @@
                 <h4>Dish Name</h4>
               </div>
               <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/kidepo-2.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Hot strings</h4>
-              </div>
-              <img src="img/portfolio/kidepo-2.jpg" class="img-responsive" alt="Project Title "> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/tour-2.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Galapagos sea lions</h4>
-              </div>
-              <img src="img/portfolio/tour-2.jpg" class="img-responsive" alt=""> </a> </div>
           </div>
         </div>
       </div>
