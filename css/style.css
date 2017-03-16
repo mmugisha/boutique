@@ -378,6 +378,24 @@ header .intro-text {
 	text-align: center;
 }
 
+/* --- Map --- */
+#map {
+	height: 400px;
+    width: 100%;
+}
+.map-title hr {
+	margin: 0 auto;
+	text-align: center;
+}
+.map-title {
+	font-size: 26px;
+	display: block;
+	font-weight: 500;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 0 0 120px 0;

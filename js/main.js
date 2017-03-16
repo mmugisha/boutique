@@ -1,5 +1,17 @@
+          var lake_Victoria_Serena_Resort = {lat: 0.2075, lng: 32.5830};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: lake_Victoria_Serena_Resort,
+          });
+          var marker = new google.maps.Marker({
+            position: lake_Victoria_Serena_Resort,
+            map: map
+          });
+        };
 
 function main() {
+
+        
 
 (function () {
    'use strict';
@@ -41,6 +53,12 @@ function main() {
       $(".navbar-collapse").collapse('hide');
     }
   });
+
+
+
+
+
+  
 	
   	// Portfolio isotope filter
     $(window).load(function() {
@@ -74,10 +92,8 @@ function main() {
     $('.portfolio-item a').nivoLightbox({
             effect: 'slideDown',  
             keyboardNav: true,                            
-        });
-
+        )};
 }());
-
 
 }
 main();
