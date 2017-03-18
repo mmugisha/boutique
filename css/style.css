@@ -343,7 +343,7 @@ header .intro-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url() no-repeat center center;
+	background: url(../img/) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -383,7 +383,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/directions_web.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
