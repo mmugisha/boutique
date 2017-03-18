@@ -175,7 +175,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background: url(../img/home_web.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -242,7 +242,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/ammenities_web.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -295,7 +295,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #direction .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/menu-.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #direction .section-title h2 {
@@ -343,7 +343,7 @@ header .intro-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/directions.jpg) no-repeat center center;
+	background: url(../img/) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -383,7 +383,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/directions_web.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
