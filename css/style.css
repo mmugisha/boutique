@@ -296,7 +296,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #direction .section-title {
-	background: #444 url(../img/menu-.jpg) center center no-repeat fixed;
+	background: #444 url(../img/directions_web.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #direction .section-title h2 {
@@ -344,7 +344,7 @@ header .intro-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/) no-repeat center center;
+	background: url(../img/directions_web.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -504,7 +504,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background: #444 url(../img/viewback_web.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 #team .overlay {
